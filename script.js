@@ -9,5 +9,5 @@ function cadastrar() {
     return;
   }
 
-  alert('Cadastro realizado com sucesso, até breve!');
+  alert('Cadastro realizado com sucesso, até breve!!!');
 }
