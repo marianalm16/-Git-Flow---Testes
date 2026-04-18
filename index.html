@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel = "script" href="script.js">
+</head>
+<body>
+    <body>
+  <div class="wrapper">
+    <div class="header">
+      <h1>Crie sua conta:</h1>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="field">
+          <label for="nomecompleto ">Nome Completo:</label>
+          <input id="nomecompleto" type="text" placeholder="Ana Maria Silva" />
+        </div>
+    
+      <div class="field">
+        <label for="email">E-mail:</label>
+        <input id="email" type="email" placeholder="ana@exemplo.com" />
+      </div>
+
+      <div class="field">
+        <label for="telefone">Telefone:</label>
+        <input id="telefone" type="tel" placeholder="(11) 99999-9999" />
+      </div>
+
+      <div class="field">
+        <label for="nascimento">Data de Nascimento:</label>
+        <input id="nascimento" type="date" />
+      </div>
+
+      <div class="field">
+        <label for="genero">Gênero</label>
+        <select id="genero" onchange="mostrarOutro()">
+          <option>Feminino</option>
+          <option>Masculino</option>
+          <option>Outro</option>
+          <option>Prefiro não informar</option>
+          </select>
+      </div>
+
+      <div class="field">
+        <label for="senha">Senha:</label>
+        <input id="senha" type="password" placeholder="Mínimo 8 caracteres" />
+      </div>
+
+<button class="btn" onclick="cadastrar()">Criar conta</button>    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</body>
+</body>
+</html>
